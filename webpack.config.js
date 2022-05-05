@@ -1,1 +1,6 @@
-console.log('test');
+module.exports = () => {
+    return {
+        mode: 'none',
+        devtool: false,
+    };
+};
