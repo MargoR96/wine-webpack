@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve \"./dist\" -s"
   },
   "keywords": [],
   "author": "Margarita Shabelnikova",
   "license": "ISC",
   "devDependencies": {
+    "serve": "^13.0.2",
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
